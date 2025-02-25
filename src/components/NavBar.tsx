@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import DesktopNavBar from "./DesktopNavBar";
 
 function NavBar() {
   return (
@@ -8,12 +9,13 @@ function NavBar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link
-              href=""
+              href="/"
               className="text-xl font-bold text-primary font-mono tracking-wider"
             >
               Socially
             </Link>
           </div>
+          <DesktopNavBar />
         </div>
       </div>
     </nav>
