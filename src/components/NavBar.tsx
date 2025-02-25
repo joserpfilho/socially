@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import DesktopNavBar from "./DesktopNavBar";
+import MobileNavbar from "./MobileNavbar";
 
 function NavBar() {
   return (
@@ -16,6 +17,7 @@ function NavBar() {
             </Link>
           </div>
           <DesktopNavBar />
+          <MobileNavbar />
         </div>
       </div>
     </nav>
